@@ -76,7 +76,7 @@ header {
     z-index: 10;
 }
 @media screen and (min-width:500px) {
-    .flexa {
+    #flexa {
         display: flex;
         flex-flow: row; /* ho notato che di default è row?*/
         justify-content: center;
@@ -291,15 +291,15 @@ aside div p:last-child {
     text-align: right;
 }
 @media screen and (min-width:500px) and (max-width:800px) {
-    .display {
+    #display {
         display: flex;
         justify-content: center;
     }
-    .display div  {
+    #display div  {
         margin-right: 4%;
         width: 30%;
     }
-    .display div:last-child {
+    #display div:last-child {
         margin-right: 0;
     }
 }
